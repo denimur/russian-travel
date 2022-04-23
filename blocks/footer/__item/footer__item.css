@@ -1,0 +1,24 @@
+.footer__item {
+	display: inline-block;
+	margin-right: 18px;
+	transition: opacity .3s ease-out;
+}
+
+.footer__item:last-of-type {
+	margin-right: 0;
+}
+
+.footer__item:hover {
+	opacity: .8;
+}
+
+@media (min-width: 320px) and (max-width: 728px) {
+	.footer__item {
+		display: block;
+		margin-bottom: 32px;
+	}
+
+	.footer__item:last-of-type {
+		margin-bottom: 48px;
+	}
+}
