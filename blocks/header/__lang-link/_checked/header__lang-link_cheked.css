@@ -1,0 +1,8 @@
+.header__lang-link_cheked::before {
+	content: '';
+	border-bottom: 2px solid #fff;
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	width: 100%;
+}
