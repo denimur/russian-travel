@@ -1,4 +1,4 @@
-.header__lang-link_cheked::before {
+.header__lang-link_checked::before {
 	content: '';
 	border-bottom: 2px solid #fff;
 	position: absolute;
